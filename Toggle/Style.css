@@ -1,0 +1,39 @@
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#outer-div{
+    width: 35%;
+    border:2px solid rgb(33, 32, 32) ;
+    box-shadow: 2px;
+    border-radius: 20px;
+      cursor: pointer;
+      transition: all 1s ;
+      background-color: white;
+    
+}
+#inner-div{
+     border-radius: 100%;
+     background-color: black;
+      width: 20px;
+     height: 20px;
+     margin: 1px;
+     cursor: pointer;
+     transition: all 1s ;
+     
+}
+.bg-black{
+    background-color: black;
+}
+
+.text-color{
+    color :white
+}
