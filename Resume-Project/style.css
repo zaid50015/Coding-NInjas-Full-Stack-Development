@@ -2,6 +2,9 @@
     margin: 0;
     font-family: sans-serif;
 }
+/* html{
+    scroll-behavior: smooth;
+} */
 
 .mb75px{
     margin-bottom: 75px;
@@ -157,7 +160,7 @@ section{
 }
 .skill-progress > div {
     border-radius: 1rem 0px 0px 1rem;
-    box-shadow: 1px 1px 2px 1px #989882;
+    
 }
 
 .skill-name >p{
@@ -189,7 +192,7 @@ section{
     width: 85%;
     height: inherit;
 }
-.ninety-percent {
+.seventy-percent {
     width: 90%;
     height: inherit;
 }
@@ -197,7 +200,14 @@ section{
     width: 80%;
     height: inherit;
 }
-
+.thirty-percent {
+    width: 30%;
+    height: inherit;
+}
+.fifty-percent{
+    width: 50%;
+    height: inherit;
+}
 /*Portfolio*/
 .portfolio-container {
     box-sizing: border-box;
