@@ -61,3 +61,14 @@ window.addEventListener('scroll',()=>{
    }
   });
 })
+let scrollpercentage=()=>{
+  let scrollColor=document.getElementById("progress");
+  let scrollvalue=document.getElementById("progress-value");
+  let pos=document.documentElement.scrollTop;
+  let totalheigh=document.documentElement.scrollHeight-document.documentElement.clientHeight;
+  let cal=Math.round(100*pos/totalheigh);
+  scrollColor.style.background = `conic-gradient(rgb(223,146,59) ${cal}%, #c0c0ff ${cal}%)`;
+  scrollvalue.textContent = `${cal}%`;
+}
+window.onscroll=scrollpercentage;
+window.onload=scrollpercentage;

@@ -16,6 +16,33 @@
     text-align: center;
 }
 
+/*Progress bar*/
+#progress{
+    height: 5.25rem;
+    width: 5.25rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 1rem;
+    right: 1.563rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+ justify-content: center;
+}
+
+#progress-value{
+        display: block;
+        height: calc(100% - 1rem);
+        width: calc(100% - 1rem);
+        background-color:transparent;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 20px;
+        color: white;
+}
 
 /*Common section styling*/
 section:nth-child(2n+1){
