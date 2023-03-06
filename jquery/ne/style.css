@@ -1,0 +1,29 @@
+#button{
+    font-family: monospace;
+    height: 3rem;
+    font-size: 2rem;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    text-transform: capitalize;
+}
+#button:hover{
+    box-shadow: 1px 5px 5px grey;
+}
+#container{
+    min-height: 100px;
+    margin-top: 2rem;
+    background-color: azure;
+    border: 5px double  grey;
+    border-top: none;
+    display: flex;
+   flex-wrap: wrap-reverse;
+   flex-direction: row-reverse;
+}
+.box{
+   border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    /* background-color: black;
+    color: red; */
+}
